@@ -11,48 +11,46 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
 
-    <link rel="stylesheet" type="text/css" href="./CSS/style.css">
+    <!-- Favicon --> 
+    <link rel="icon" href="favicon.ico" type="image/x-icon"> 
 
-    <title>Fundamentals of Computer Engineering</title>
+    <!-- Stylesheets --> 
+    <link rel="stylesheet" type="text/css" href="/CSS/styles.css">
+    
+    <!-- Scripts --> 
+    <script src="script.js" defer></script>
 
+    <!-- Open Graph meta tags for social media --> 
+    <meta property="og:title" content="Your Page Title"> 
+    <meta property="og:description" content="A brief description of your webpage."> 
+    <meta property="og:image" content="image-url.jpg"> 
+    <meta property="og:url" content="https://www.yourwebsite.com">
+
+    <title>My Webpage</title>
 
 </head>
 
 <body>
-    <header class="container">
-        <div class="header-content">
-            <div class="header-title">Web Page Header</div>
-            <nav>
-                <a href="./index.html" class="active">Home</a>
-                <a href="./pages/about.html">About</a>
-                <a href="#">Contact</a>
-            </nav>
-        </div>
-    </header>
-    <main class="container">
-        <div class="content">
-            <h1>Welcome to the Webpage</h1>
-            <p>This is the central area where you can include your content.</p>
-        </div>
-        <div class="menu">
-            <div class="menu-content">
-                <div class="menu-item">
-                    <img src="./images/location-white.png" alt="Location Icon" class="menu-icon">
-                    <p>Location</p>
-                </div>
-                <div class="menu-item">
-                    <img src="./images/telephone-white.png" alt="Phone Icon" class="menu-icon">
-                    <p>+34 420691322</p>
-                </div>
-                <div class="menu-item">
-                    <img src="./images/envelope-white.png" alt="Email Icon" class="menu-icon">
-                    <p>9405118@alumnos.ufv.es</p>
-                </div>
-            </div>
-        </div>
-    </main>
-    <footer class="footer_section">
-        <p>&copy; 2024 All Rights Reserved. Design by <a href="#">Moisés Martínez</a></p>
-    </footer>
+  <nav class="navbar">
+    <div class="navbar__container">
+      <a href="/" id="navbar__logo">NostOs</a>
+      <div class="navbar__toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <ul class="navbar__menu">
+        <li class="navbar__item">
+          <a href="/" class="navbar__links">Home</a>
+        </li>
+        <li class="navbar__item">
+          <a href="/" class="navbar__links">About</a>
+        </li>
+        <li class="navbar__btn">
+          <a href="/" class="button">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 </body>
 </html>
