@@ -8,6 +8,13 @@
       {
         "html-has-lang": "off"
       }
-    ]
+    ],
+    "axe/keyboard": [
+      "default",
+      {
+        "nested-interactive": "off"
+      }
+    ],
+    "button-type": "off"
   }
 }

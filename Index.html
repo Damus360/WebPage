@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE-edge" />
 
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <meta name="keywords" content="" />
     <meta name="description" content="" />
@@ -16,6 +16,10 @@
 
     <!-- Stylesheets --> 
     <link rel="stylesheet" type="text/css" href="/CSS/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">
     
     <!-- Scripts --> 
     <script src="script.js" defer></script>
@@ -31,27 +35,43 @@
 </head>
 
 <body>
-  <nav class="navbar">
-    <div class="navbar__container">
-      <a href="/" id="navbar__logo">NostOs</a>
-      <div class="navbar__toggle" id="mobile-menu">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="/" id="navbar__logo"><i class="fa-solid fa-cubes"></i>NostOs</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="/" class="navbar__links">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="/" class="navbar__links">About</a>
+          </li>
+          <li class="navbar__item">
+            <a href="/" class="navbar__links">Social</a>
+          </li>
+          <li class="navbar__btn"><a href="/" class="button">Contact</a></li>
+        </ul>
       </div>
-      <ul class="navbar__menu">
-        <li class="navbar__item">
-          <a href="/" class="navbar__links">Home</a>
-        </li>
-        <li class="navbar__item">
-          <a href="/" class="navbar__links">About</a>
-        </li>
-        <li class="navbar__btn">
-          <a href="/" class="button">Contact</a>
-        </li>
-      </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="main">
+      <div class="main__container">
+        <div class="main__content">
+          <h1>NEXT GENERATION</h1>
+          <h2>TECHNOLOGY</h2>
+          <p>See the difference.</p>
+          <button class="main__btn"><a href="#">Get Started</a></button>
+        </div>
+        <div class="main__img--container">
+          <img id="main__img" src="/Images/undraw.svg" alt="pic"/>
+        </div>
+      </div>
     </div>
-  </nav>
   <script src="/Jason/app.js"></script>
 </body>
 </html>
