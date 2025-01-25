@@ -7,3 +7,6 @@ Personal Web Page for Work
 
 # 24/01/2024
 --Agregamos scripting tipo jason
+
+#25/01/2025
+--terminamos la estructura base a modificar y experimentar
